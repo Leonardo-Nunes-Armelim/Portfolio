@@ -1,124 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Leonardo Nunes Armelim</title>
     <link rel="stylesheet" href="style.css">
-    <title>Portifólio Leonardo Armelim</title>
 </head>
 <body>
-    <header>
-        <!-- Perfil -->
-        <div class="grid-perfil-container">
-            <div class="foto-perfil">
-                <img src="perfil.png" alt="Leonardo Armelim">
-            </div>
-            <div class="descricao-perfil">
-                <h1>Leonardo Armelim</h1>
-                <p>Olá, sou o Leonardo Nunes Armelim. Programador Front-End e Back-End.</p>
+    <header id="main-header">
+        <div class="header-container">
+            <img src="img/minha_foto.jpg" alt="Leonardo Nunes Armelim" class="profile-photo">
+            <div class="header-text">
+                <h1>Leonardo Nunes Armelim</h1>
+                <h2>Desenvolvedor de Software | Engenharia de Dados | Data Science</h2>
             </div>
         </div>
-        <nav class="topnav" id="navbar">
-            <a href="#" onclick="allProjects()">Todos os Projetos</a>
-            <a href="#" onclick="python()">Python</a>
-            <a href="#" onclick="html()">HTML</a>
-            <a href="#" onclick="css()">CSS</a>
-            <a href="#" onclick="java()">Java</a>
-            <a href="#" onclick="javascript()">JavaScript</a>
-            <a href="#" onclick="cmaismais()">C++</a>
-            <a href="#" onclick="vba()">VBA</a>
-            <a href="#" onclick="arduino()">Arduino</a>
-            <a href="#" class="icon" onclick="navbarIcon()">...</a>
-        </nav>
     </header>
-    <main>
-        <!-- Projetos -->
-        <div class="flex-container">
-            <!-- Simon the Game - Python -->
-            <div class="grid-projeto-container" id="Simon the Game - Python">
-                <div class="imagem"><img src="Jogo Simon - Python.png" alt="Jogo Simon - Python"></div>
-                <div class="descricao-imagem">Jogo Simon - Python</div>
-                <div class="github"><a target="_blank" href="https://github.com/Leonardo-Nunes-Armelim/Simon_the_Game">GitHub</a></div>
-                <div class="youtube"><a target="_blank" href="https://youtu.be/MT6RpuPKSyw">YouTube</a></div>
-            </div>
-            <!-- Base Giratória Cubo Mágico - Arduino e C++ -->
-            <div class="grid-projeto-container" id="Base Giratória Cubo Mágico - Arduino e Cmaismais">
-                <div class="imagem"><img src="Arduino - Base Giratória Cubo Mágico.png" alt="Arduino - Base Giratória Cubo Mágico"></div>
-                <div class="descricao-imagem">Base Giratória - Arduino e C++</div>
-                <div class="github"><a target="_blank" href="https://github.com/Leonardo-Nunes-Armelim/Base_Giratoria_Cubo_Magico">GitHub</a></div>
-                <div class="youtube"><a target="_blank" href="https://youtu.be/-3Y8pQ2dUug">Youtube</a></div>
-            </div>
-            <!-- Guess the Number - Python -->
-            <div class="grid-projeto-container" id="Guess the Number - Python">
-                <div class="imagem"><img src="Guess the Number - Python.png" alt="Guess the Number - Python"></div>
-                <div class="descricao-imagem">Guess the Number - Python</div>
-                <div class="github"><a target="_blank" href="https://github.com/Leonardo-Nunes-Armelim/Guess-the-Number">GitHub</a></div>
-                <div class="youtube"><a href="#">Sem Youtube</a></div>
-            </div>
-            <!-- Teclado Virtual - JavaScript -->
-            <div class="grid-projeto-container" id="Teclado Virtual - JavaScript">
-                <div class="imagem"><img src="Teclado Virtual.png" alt="Teclado Virtual"></div>
-                <div class="descricao-imagem">Teclado Virtual - JavaScript</div>
-                <div class="github"><a target="_blank" href="https://github.com/Leonardo-Nunes-Armelim/Teclado-Virtual">GitHub</a></div>
-                <div class="youtube"><a href="#">Sem Youtube</a></div>
-            </div>
-            <!-- Jogo da Velha - Python -->
-            <div class="grid-projeto-container" id="Jogo da Velha - Python">
-                <div class="imagem"><img src="Jogo da Velha - Python.png" alt="Jogo da Velha - Python"></div>
-                <div class="descricao-imagem">Jogo da Velha - Python</div>
-                <div class="github"><a target="_blank" href="https://github.com/Leonardo-Nunes-Armelim/Python_Jogo_da_Velha_or_Tic_Tac_Toe">GitHub</a></div>
-                <div class="youtube"><a href="#">Sem Youtube</a></div>
-            </div>
-            <!-- Event Key - HTML CSS JavaScript -->
-            <div class="grid-projeto-container" id="Event Key - HTML CSS JavaScript">
-                <div class="imagem"><img src="Event Key - HTML CSS JavaScript.png" alt="Event Key - HTML CSS JavaScript"></div>
-                <div class="descricao-imagem">Event Key - JavaScript</div>
-                <div class="github"><a target="_blank" href="https://github.com/Leonardo-Nunes-Armelim/Event-Key">GitHub</a></div>
-                <div class="youtube"><a href="#">Sem Youtube</a></div>
-            </div>
-            <!-- Grafico de Barras - Python -->
-            <div class="grid-projeto-container" id="Grafico de Barras - Python">
-                <div class="imagem"><img src="Grafico de Barras - Python.png" alt="Grafico de Barras - Python"></div>
-                <div class="descricao-imagem">Gráfico de Barras - Python</div>
-                <div class="github"><a target="_blank" href="https://github.com/Leonardo-Nunes-Armelim/Python-Matplotlib">GitHub</a></div>
-                <div class="youtube"><a target="_blank" href="https://youtu.be/rsrSp1XoMFw">Youtube</a></div>
-            </div>
-            <!-- CSS Animation 1 -->
-            <div class="grid-projeto-container" id="CSS Animation 1">
-                <div class="imagem"><img src="CSS Animation 1.png" alt="CSS Animation 1 - HTML e CSS"></div>
-                <div class="descricao-imagem">CSS Animation 1 - HTML e CSS</div>
-                <div class="github"><a target="_blank" href="https://github.com/Leonardo-Nunes-Armelim/CSS_Animation_1">GitHub</a></div>
-                <div class="youtube"><a target="_blank" href="https://youtu.be/MP1RqnZshYU">Youtube</a></div>
-            </div>
-            <!-- Tabuada - Java -->
-            <div class="grid-projeto-container" id="Tabuada - Java">
-                <div class="imagem"><img src="Tabuada - Java.png" alt="Tabuada - Java"></div>
-                <div class="descricao-imagem">Tabuada - Java</div>
-                <div class="github"><a target="_blank" href="https://github.com/Leonardo-Nunes-Armelim/Tabuada_or_Multiplication_Table">GitHub</a></div>
-                <div class="youtube"><a href="#">Sem Youtube</a></div>
-            </div>
-            <!-- Playlist VBA -->
-            <div class="grid-projeto-container" id="Playlist VBA">
-                <div class="imagem"><img src="Excel VBA.png" alt="Excel VBA"></div>
-                <div class="descricao-imagem">Playlist - VBA</div>
-                <div class="github"><a href="#">Sem GitHub</a></div>
-                <div class="youtube"><a target="_blank" href="https://www.youtube.com/watch?v=8HiNJUnLxRs&list=PLgXoNCMC3FvZMST_AcjoybepyBpZI0XTT">Youtube</a></div>
+
+    <section id="about-me">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>Sobre Mim</h2>
+                <p>Olá!, sou desenvolvedor de software e apaixonado por tecnologia. Tenho experiência em diversas áreas, incluindo desenvolvimento de software, inteligência artificial, desenvolvimento web, engenharia de dados, eletrônica e impressão 3D.</p>
+
+                <h3>Minhas Habilidades</h3>
+                <ul id="skills-list"></ul>
             </div>
         </div>
-    </main>
+    </section>
+
+    <section id="projects">
+        <h2>Meus Projetos</h2>
+        <div class="projects-container"></div>
+    </section>
+
+    <section id="youtube-channels">
+        <h2>Meus Canais no YouTube</h2>
+        <div class="container">
+            <div class="project-card">
+                <img src="img/Bytes Universe/Logo_ptbr.png" alt="Bytes Universe Com Leo" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                <h3>Bytes Universe Com Leo</h3>
+                <p>Canal para ensinar programação de forma divertida</p>
+                <a href="Bytes_Universe_com_Leo.html">Ver Projetos</a>
+            </div>
+
+            <div class="project-card">
+                <img src="img/Bytes Universe/Logo_en.png" alt="Bytes Universe With Leo" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                <h3>Bytes Universe With Leo</h3>
+                <p>Channel to teach programming in a fun way</p>
+                <a href="Bytes_Universe_with_Leo.html">Ver Projetos</a>
+            </div>
+            
+            <div class="project-card">
+                <img src="img/Python Tutoriais/Logo.png" alt="Python Tutoriais" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                <h3>Python Tutoriais</h3>
+                <p>Tutoriais focados em Python</p>
+                <a href="python_tutoriais.html">Ver Projetos</a>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <div>
-            <p>Python &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 &#11088; &#11088; &#11088; &#11088; &#11088;</p>
-            <p>HTML &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       &#11088; &#11088; &#11088; &#11088;</p>
-            <p>CSS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &#11088; &#11088; &#11088; &#11088;</p>
-            <p>Java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       &#11088; &#11088; &#11088;</p>
-            <p>JavaScript &nbsp;&nbsp;&nbsp;                                     &#11088; &#11088; &#11088; &#11088;</p>
-            <p>C++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &#11088; &#11088; &#11088; &#11088;</p>
-            <p>VBA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &#11088; &#11088; &#11088; &#11088; &#11088;</p>
-            <p>Arduino &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                      &#11088; &#11088; &#11088; &#11088; &#11088;</p>
-        </div>
+        <p>&copy; 2025 Leonardo Nunes Armelim | <a href="https://github.com/Leonardo-Nunes-Armelim" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/leonardo-nunes-armelim/" target="_blank">LinkedIn</a></p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
