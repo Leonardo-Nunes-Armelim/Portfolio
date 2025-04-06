@@ -83,6 +83,13 @@ document.addEventListener("DOMContentLoaded", () => {
             github: "https://github.com/Leonardo-Nunes-Armelim/Bytes_Universe/tree/main/Jogos_em_Python/012_Pedra_Papel_Tesoura",
             youtube: "",
             image: "img/Bytes Universe/012_Pedra_Papel_Tesoura.png"
+        },
+        {
+            name: "Jogo de Plataforma 2D",
+            description: "Jogo de plataforma 2D com tema de pirata feito com PyGame",
+            github: "https://github.com/Leonardo-Nunes-Armelim/Bytes_Universe/tree/main/Jogos_em_Python/013_Jogo_de_Plataforma_2D",
+            youtube: "https://youtu.be/nCk4zEL15dM",
+            image: "img/Bytes Universe/013_Jogo_de_Plataforma_2D.png"
         }
     ];
 
