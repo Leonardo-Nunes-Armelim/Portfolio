@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "Pedra Papel Tesoura",
             description: "Um jogo que toda criança sabe jogar programado com PyGame",
             github: "https://github.com/Leonardo-Nunes-Armelim/Bytes_Universe/tree/main/Jogos_em_Python/012_Pedra_Papel_Tesoura",
-            youtube: "",
+            youtube: "https://youtu.be/T7um8dyd1e8",
             image: "img/Bytes Universe/012_Pedra_Papel_Tesoura.png"
         },
         {
