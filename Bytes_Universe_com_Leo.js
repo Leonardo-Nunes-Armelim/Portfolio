@@ -90,6 +90,69 @@ document.addEventListener("DOMContentLoaded", () => {
             github: "https://github.com/Leonardo-Nunes-Armelim/Bytes_Universe/tree/main/Jogos_em_Python/013_Jogo_de_Plataforma_2D",
             youtube: "https://youtu.be/nCk4zEL15dM",
             image: "img/Bytes Universe/013_Jogo_de_Plataforma_2D.png"
+        },
+        {
+            name: "Jogo da Memória",
+            description: "O clássico jogo da memória feito com PyGame",
+            github: "https://github.com/Leonardo-Nunes-Armelim/Bytes_Universe/tree/main/Jogos_em_Python/014_Jogo_da_Memoria ",
+            youtube: "https://youtu.be/NHEv-RHESfk",
+            image: "img/Bytes Universe/014_Jogo_da_Memoria.png"
+        },
+        {
+            name: "Flappy Birds",
+            description: "Famoso jogo do Flappy Birds recriado com PyGame",
+            github: "https://github.com/Leonardo-Nunes-Armelim/Bytes_Universe/tree/main/Jogos_em_Python/015_Flappy_Birds",
+            youtube: "https://youtu.be/PJjqXe0ABuo",
+            image: "img/Bytes Universe/015_Flappy_Birds.png"
+        },
+        {
+            name: "Flow",
+            description: "Jogo de quebra-cabeça feito com PyGame",
+            github: "https://github.com/Leonardo-Nunes-Armelim/Bytes_Universe/tree/main/Jogos_em_Python/016_Flow",
+            youtube: "https://youtu.be/un2gGZgOZSU",
+            image: "img/Bytes Universe/016_Flow.png"
+        },
+        {
+            name: "Pac-Man",
+            description: "O Clássico jogo do Pac-Man recriado com PyGame",
+            github: "https://github.com/Leonardo-Nunes-Armelim/Bytes_Universe/tree/main/Jogos_em_Python/017_Pac_Man",
+            youtube: "https://youtu.be/dt_1IcD_vbs",
+            image: "img/Bytes Universe/017_Pac_Man.png"
+        },
+        {
+            name: "Uno",
+            description: "Famoso jogo de cartas Uno feito com PyGame",
+            github: "https://github.com/Leonardo-Nunes-Armelim/Bytes_Universe/tree/main/Jogos_em_Python/018_Uno",
+            youtube: "https://youtu.be/f_pkEtR9ZhE",
+            image: "img/Bytes Universe/018_Uno.png"
+        },
+        {
+            name: "Travessia",
+            description: "Clásico jogo da travesia de um sapo feito com PyGame",
+            github: "https://github.com/Leonardo-Nunes-Armelim/Bytes_Universe/tree/main/Jogos_em_Python/019_Travessia",
+            youtube: "https://youtu.be/pFZ46OIvmx4",
+            image: "img/Bytes Universe/019_Travessia.png"
+        },
+        {
+            name: "Xadrez",
+            description: "Jogo de estratégia feito com PyGame",
+            github: "https://github.com/Leonardo-Nunes-Armelim/Bytes_Universe/tree/main/Jogos_em_Python/020_Xadrez",
+            youtube: "https://youtu.be/pbPZE7AL1-A",
+            image: "img/Bytes Universe/020_Xadrez.png"
+        },
+        {
+            name: "Damas",
+            description: "Jogo de estratégia feito com PyGame",
+            github: "https://github.com/Leonardo-Nunes-Armelim/Bytes_Universe/tree/main/Jogos_em_Python/021_Checkers",
+            youtube: "https://youtu.be/PRe3fKtCcFA",
+            image: "img/Bytes Universe/021_Checkers.png"
+        },
+        {
+            name: "Typing Shooter",
+            description: "Jogo de digitação de palavras representado por naves inimigas",
+            github: "https://github.com/Leonardo-Nunes-Armelim/Bytes_Universe/tree/main/Jogos_em_Python/022_Typing_Shooter",
+            youtube: "https://youtu.be/PNy5-czr5wA",
+            image: "img/Bytes Universe/022_Typing_Shooter.png"
         }
     ];
 
